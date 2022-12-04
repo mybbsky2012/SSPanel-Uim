@@ -1,12 +1,19 @@
 .idea
-.vs/
 .htaccess
 */.DS_Store
 .DS_Store
 composer.lock
 .php_cs.cache
 .env
+
 vendor
+
+.vs/
+.vscode
+.editorconfig
+
+.stylelintrc.json
+.stylelintignore
 
 php_errors.log
 composer.phar
@@ -16,10 +23,10 @@ index.html
 
 config/.config.php
 config/.config.php.bak
+config/appprofile.php
 
-public/ssr-download/
+public/clients/
 public/images/*.*
-public/theme/material/css/images/bg
 
 storage/framework/smarty/cache/*
 storage/framework/smarty/compile/*
@@ -33,6 +40,12 @@ storage/*.*
 .user.ini
 public/.user.ini
 
-resources/views/material/analytics.tpl
+.envrc.local
+.envrc
+flake.lock
+flake.nix
+.direnv/
 
-test/tpl_files.txt
+node_modules
+package.json
+package-lock.json
